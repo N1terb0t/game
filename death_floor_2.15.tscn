@@ -1,0 +1,68 @@
+[gd_scene load_steps=2 format=3 uid="uid://7210krjvkwue"]
+
+[ext_resource type="PackedScene" uid="uid://bg7nv4ho45a2e" path="res://Materials/death_2.tscn" id="1_exdwj"]
+
+[node name="death_floor_215" type="Node2D"]
+
+[node name="Area2D" parent="." instance=ExtResource("1_exdwj")]
+position = Vector2(0, 1)
+
+[node name="Area2D2" parent="." instance=ExtResource("1_exdwj")]
+position = Vector2(432, 1)
+
+[node name="Area2D3" parent="." instance=ExtResource("1_exdwj")]
+position = Vector2(865, 1)
+
+[node name="Area2D4" parent="." instance=ExtResource("1_exdwj")]
+position = Vector2(1298, 1)
+
+[node name="Area2D5" parent="." instance=ExtResource("1_exdwj")]
+position = Vector2(1731, 1)
+
+[node name="Area2D6" parent="." instance=ExtResource("1_exdwj")]
+position = Vector2(2164, 1)
+
+[node name="Area2D7" parent="." instance=ExtResource("1_exdwj")]
+position = Vector2(2599, 1)
+
+[node name="Area2D8" parent="." instance=ExtResource("1_exdwj")]
+position = Vector2(3033, 1)
+
+[node name="Area2D9" parent="." instance=ExtResource("1_exdwj")]
+position = Vector2(3465, 1)
+
+[node name="Area2D10" parent="." instance=ExtResource("1_exdwj")]
+position = Vector2(3899, 1)
+
+[node name="Area2D11" parent="." instance=ExtResource("1_exdwj")]
+position = Vector2(4331, 1)
+
+[node name="Area2D12" parent="." instance=ExtResource("1_exdwj")]
+position = Vector2(-434, 1)
+
+[node name="Area2D13" parent="." instance=ExtResource("1_exdwj")]
+position = Vector2(-868, 0)
+
+[node name="Area2D14" parent="." instance=ExtResource("1_exdwj")]
+position = Vector2(-1299, 0)
+
+[node name="Area2D15" parent="." instance=ExtResource("1_exdwj")]
+position = Vector2(-1733, 1)
+
+[node name="Area2D16" parent="." instance=ExtResource("1_exdwj")]
+position = Vector2(-2167, 1)
+
+[node name="Area2D17" parent="." instance=ExtResource("1_exdwj")]
+position = Vector2(-2601, 1)
+
+[node name="Area2D18" parent="." instance=ExtResource("1_exdwj")]
+position = Vector2(-3035, 1)
+
+[node name="Area2D19" parent="." instance=ExtResource("1_exdwj")]
+position = Vector2(-3469, 1)
+
+[node name="Area2D20" parent="." instance=ExtResource("1_exdwj")]
+position = Vector2(-3901, 1)
+
+[node name="Area2D21" parent="." instance=ExtResource("1_exdwj")]
+position = Vector2(-4333, 1)

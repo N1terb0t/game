@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://c4iduwkijnln0"]
+
+[ext_resource type="PackedScene" uid="uid://dob4t1m1xl8s2" path="res://Materials/platform.tscn" id="1_pac0l"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Platform" parent="." instance=ExtResource("1_pac0l")]
+position = Vector2(325, 486)
+rotation = -3.14159
+
+[node name="Platform2" parent="." instance=ExtResource("1_pac0l")]
+position = Vector2(181, 486)
+rotation = -3.14159

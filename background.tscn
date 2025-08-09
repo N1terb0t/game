@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=3 uid="uid://jkudcm2owo24"]
+
+[ext_resource type="Texture2D" uid="uid://c7k732ashcb" path="res://Sprites/background_wals_generated.jpg" id="1_jhp7e"]
+
+[node name="Background" type="Node2D"]
+
+[node name="BackgroundWalsGenerated" type="Sprite2D" parent="."]
+position = Vector2(647, 324.25)
+scale = Vector2(0.675, 0.645178)
+texture = ExtResource("1_jhp7e")
+
+[node name="BackgroundWalsGenerated2" type="Sprite2D" parent="."]
+position = Vector2(1943, 324)
+scale = Vector2(0.675, 0.645178)
+texture = ExtResource("1_jhp7e")
+
+[node name="BackgroundWalsGenerated3" type="Sprite2D" parent="."]
+position = Vector2(647, 950)
+scale = Vector2(0.675, 0.645178)
+texture = ExtResource("1_jhp7e")
+
+[node name="BackgroundWalsGenerated4" type="Sprite2D" parent="."]
+position = Vector2(1935, 950)
+scale = Vector2(0.675, 0.645178)
+texture = ExtResource("1_jhp7e")

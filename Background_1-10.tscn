@@ -1,0 +1,127 @@
+[gd_scene load_steps=2 format=3 uid="uid://bmbf2hx0ojb6f"]
+
+[ext_resource type="Texture2D" uid="uid://jida4mbviewx" path="res://Sprites/202a22c1c9e6.png" id="1_qlkcg"]
+
+[node name="Backgrond_1-10" type="Node2D"]
+show_behind_parent = true
+position = Vector2(13, 0)
+
+[node name="202a22c1c9e6" type="Sprite2D" parent="."]
+position = Vector2(639, 79)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e7" type="Sprite2D" parent="."]
+position = Vector2(-640, 80)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e8" type="Sprite2D" parent="."]
+position = Vector2(639, -1197)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e9" type="Sprite2D" parent="."]
+position = Vector2(-640, -1197)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e10" type="Sprite2D" parent="."]
+position = Vector2(1919, -1197)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e11" type="Sprite2D" parent="."]
+position = Vector2(1919, 79)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e12" type="Sprite2D" parent="."]
+position = Vector2(3195, -1197)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e13" type="Sprite2D" parent="."]
+position = Vector2(3195, 79)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e14" type="Sprite2D" parent="."]
+position = Vector2(-1920, 80)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e15" type="Sprite2D" parent="."]
+position = Vector2(-1919, -1197)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e16" type="Sprite2D" parent="."]
+position = Vector2(-3199, -1197)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e17" type="Sprite2D" parent="."]
+position = Vector2(-3197, 80)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e18" type="Sprite2D" parent="."]
+position = Vector2(3195, 1359)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e19" type="Sprite2D" parent="."]
+position = Vector2(1919, 1359)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e20" type="Sprite2D" parent="."]
+position = Vector2(639, 1358)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e21" type="Sprite2D" parent="."]
+position = Vector2(-640, 1353)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e22" type="Sprite2D" parent="."]
+position = Vector2(-1920, 1353)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e23" type="Sprite2D" parent="."]
+position = Vector2(-3197, 1353)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e24" type="Sprite2D" parent="."]
+position = Vector2(3195, -2476)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e25" type="Sprite2D" parent="."]
+position = Vector2(1919, -2477)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e26" type="Sprite2D" parent="."]
+position = Vector2(-3199, -2476)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e27" type="Sprite2D" parent="."]
+position = Vector2(-1919, -2476)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e28" type="Sprite2D" parent="."]
+position = Vector2(-640, -2476)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e29" type="Sprite2D" parent="."]
+position = Vector2(639, -2476)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e30" type="Sprite2D" parent="."]
+position = Vector2(3195, 2638)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e31" type="Sprite2D" parent="."]
+position = Vector2(1919, 2637)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e32" type="Sprite2D" parent="."]
+position = Vector2(-3199, 2628)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e33" type="Sprite2D" parent="."]
+position = Vector2(-1919, 2628)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e34" type="Sprite2D" parent="."]
+position = Vector2(-640, 2630)
+texture = ExtResource("1_qlkcg")
+
+[node name="202a22c1c9e35" type="Sprite2D" parent="."]
+position = Vector2(639, 2638)
+texture = ExtResource("1_qlkcg")

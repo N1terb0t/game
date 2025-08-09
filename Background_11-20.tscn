@@ -1,0 +1,69 @@
+[gd_scene load_steps=2 format=3 uid="uid://cuwkjj7lygwk8"]
+
+[ext_resource type="Texture2D" uid="uid://7e2a1nq6bdly" path="res://Sprites/Background_2_2.jpg" id="1_mp7yh"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Background22" type="Sprite2D" parent="."]
+position = Vector2(1920, 876)
+texture = ExtResource("1_mp7yh")
+
+[node name="Background23" type="Sprite2D" parent="."]
+position = Vector2(-1920, 876)
+texture = ExtResource("1_mp7yh")
+
+[node name="Background24" type="Sprite2D" parent="."]
+position = Vector2(1920, -876)
+texture = ExtResource("1_mp7yh")
+
+[node name="Background25" type="Sprite2D" parent="."]
+position = Vector2(-1919, -876)
+texture = ExtResource("1_mp7yh")
+
+[node name="Background26" type="Sprite2D" parent="."]
+position = Vector2(5755, -876)
+texture = ExtResource("1_mp7yh")
+
+[node name="Background27" type="Sprite2D" parent="."]
+position = Vector2(5755, 876)
+texture = ExtResource("1_mp7yh")
+
+[node name="Background28" type="Sprite2D" parent="."]
+position = Vector2(-5755, -876)
+texture = ExtResource("1_mp7yh")
+
+[node name="Background29" type="Sprite2D" parent="."]
+position = Vector2(-5755, 876)
+texture = ExtResource("1_mp7yh")
+
+[node name="Background30" type="Sprite2D" parent="."]
+position = Vector2(-1920, 2628)
+texture = ExtResource("1_mp7yh")
+
+[node name="Background31" type="Sprite2D" parent="."]
+position = Vector2(1920, 2628)
+texture = ExtResource("1_mp7yh")
+
+[node name="Background34" type="Sprite2D" parent="."]
+position = Vector2(5755, 2628)
+texture = ExtResource("1_mp7yh")
+
+[node name="Background35" type="Sprite2D" parent="."]
+position = Vector2(-5755, 2628)
+texture = ExtResource("1_mp7yh")
+
+[node name="Background32" type="Sprite2D" parent="."]
+position = Vector2(1920, -2628)
+texture = ExtResource("1_mp7yh")
+
+[node name="Background37" type="Sprite2D" parent="."]
+position = Vector2(5760, -2628)
+texture = ExtResource("1_mp7yh")
+
+[node name="Background33" type="Sprite2D" parent="."]
+position = Vector2(-1920, -2628)
+texture = ExtResource("1_mp7yh")
+
+[node name="Background36" type="Sprite2D" parent="."]
+position = Vector2(-5755, -2628)
+texture = ExtResource("1_mp7yh")

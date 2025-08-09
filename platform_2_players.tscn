@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://b0qiv8vj1vfe0"]
+
+[ext_resource type="Texture2D" uid="uid://bukha33763o2q" path="res://Sprites/Platform to 2 players.png" id="1_8pyaq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q33k0"]
+size = Vector2(16, 24)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_36iwb"]
+size = Vector2(16, 24)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xlnuy"]
+size = Vector2(128, 16)
+
+[node name="StaticBody2D" type="StaticBody2D"]
+position = Vector2(490, 390)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_8pyaq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(72, -4)
+shape = SubResource("RectangleShape2D_q33k0")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(-72, -4)
+shape = SubResource("RectangleShape2D_36iwb")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="."]
+position = Vector2(0, 8)
+shape = SubResource("RectangleShape2D_xlnuy")

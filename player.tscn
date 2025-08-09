@@ -1,0 +1,56 @@
+[gd_scene load_steps=8 format=3 uid="uid://cnak6bnvqp62l"]
+
+[ext_resource type="Script" path="res://Scripts/Player.gd" id="1_rscv6"]
+[ext_resource type="Texture2D" uid="uid://cv572o2xlhdd5" path="res://Sprites/Person 4.png" id="2_868mi"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_gdim5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_868mi")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 1.99
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ks5n2"]
+size = Vector2(161, 127)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qmnq4"]
+size = Vector2(128, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3m8ee"]
+size = Vector2(20, 96)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bw2ar"]
+size = Vector2(20, 96)
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_rscv6")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_gdim5")
+animation = &"idle"
+frame_progress = 0.275744
+
+[node name="Camera2D" type="Camera2D" parent="AnimatedSprite2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, -0.5)
+shape = SubResource("RectangleShape2D_ks5n2")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(0, -70)
+shape = SubResource("RectangleShape2D_qmnq4")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="."]
+position = Vector2(86, 0)
+shape = SubResource("RectangleShape2D_3m8ee")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="."]
+position = Vector2(-87, 1)
+shape = SubResource("RectangleShape2D_bw2ar")
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+target_position = Vector2(0, 5)

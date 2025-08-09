@@ -1,0 +1,59 @@
+[gd_scene load_steps=2 format=3 uid="uid://c57odl35mphu0"]
+
+[ext_resource type="PackedScene" uid="uid://c61ninkjbrjyh" path="res://Materials/death.tscn" id="1_pr6mp"]
+
+[node name="death_floor" type="Node2D"]
+
+[node name="Death" parent="." instance=ExtResource("1_pr6mp")]
+position = Vector2(13, -15)
+
+[node name="Death2" parent="." instance=ExtResource("1_pr6mp")]
+position = Vector2(451, -15)
+
+[node name="Death3" parent="." instance=ExtResource("1_pr6mp")]
+position = Vector2(889, -15)
+
+[node name="Death4" parent="." instance=ExtResource("1_pr6mp")]
+position = Vector2(1327, -15)
+
+[node name="Death5" parent="." instance=ExtResource("1_pr6mp")]
+position = Vector2(-428, -17)
+
+[node name="Death6" parent="." instance=ExtResource("1_pr6mp")]
+position = Vector2(-873, -17)
+
+[node name="Death7" parent="." instance=ExtResource("1_pr6mp")]
+position = Vector2(-1311, -17)
+
+[node name="Death8" parent="." instance=ExtResource("1_pr6mp")]
+position = Vector2(1769, -17)
+
+[node name="Death9" parent="." instance=ExtResource("1_pr6mp")]
+position = Vector2(-1749, -25)
+
+[node name="Death10" parent="." instance=ExtResource("1_pr6mp")]
+position = Vector2(2200, -17)
+
+[node name="Death11" parent="." instance=ExtResource("1_pr6mp")]
+position = Vector2(2636, -20)
+
+[node name="Death12" parent="." instance=ExtResource("1_pr6mp")]
+position = Vector2(-2199, -22)
+
+[node name="Death13" parent="." instance=ExtResource("1_pr6mp")]
+position = Vector2(-2654, -22)
+
+[node name="Death14" parent="." instance=ExtResource("1_pr6mp")]
+position = Vector2(3087, -22)
+
+[node name="Death15" parent="." instance=ExtResource("1_pr6mp")]
+position = Vector2(3519, -22)
+
+[node name="Death16" parent="." instance=ExtResource("1_pr6mp")]
+position = Vector2(-3110, -22)
+
+[node name="Death17" parent="." instance=ExtResource("1_pr6mp")]
+position = Vector2(3950, -22)
+
+[node name="Death18" parent="." instance=ExtResource("1_pr6mp")]
+position = Vector2(-3541, -22)

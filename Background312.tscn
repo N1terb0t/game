@@ -1,0 +1,80 @@
+[gd_scene load_steps=2 format=3 uid="uid://btof020lnj7o1"]
+
+[ext_resource type="Texture2D" uid="uid://c7k732ashcb" path="res://Sprites/background_wals_generated.jpg" id="1_hvrlf"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="BackgroundWalsGenerated" type="Sprite2D" parent="."]
+position = Vector2(960, -476.625)
+scale = Vector2(1, 1.00178)
+texture = ExtResource("1_hvrlf")
+
+[node name="BackgroundWalsGenerated2" type="Sprite2D" parent="."]
+position = Vector2(959.75, 494)
+scale = Vector2(0.99974, 1.00305)
+texture = ExtResource("1_hvrlf")
+
+[node name="BackgroundWalsGenerated3" type="Sprite2D" parent="."]
+position = Vector2(-960, 494)
+scale = Vector2(1, 1.00152)
+texture = ExtResource("1_hvrlf")
+
+[node name="BackgroundWalsGenerated4" type="Sprite2D" parent="."]
+position = Vector2(-960, 1462.75)
+scale = Vector2(1, 1.00152)
+texture = ExtResource("1_hvrlf")
+
+[node name="BackgroundWalsGenerated5" type="Sprite2D" parent="."]
+position = Vector2(2879.5, -476.562)
+scale = Vector2(0.999479, 1.0019)
+texture = ExtResource("1_hvrlf")
+
+[node name="BackgroundWalsGenerated6" type="Sprite2D" parent="."]
+position = Vector2(960, 1463)
+scale = Vector2(1, 1.00102)
+texture = ExtResource("1_hvrlf")
+
+[node name="BackgroundWalsGenerated7" type="Sprite2D" parent="."]
+position = Vector2(2879.5, 1462.37)
+scale = Vector2(0.999479, 1.00229)
+texture = ExtResource("1_hvrlf")
+
+[node name="BackgroundWalsGenerated8" type="Sprite2D" parent="."]
+position = Vector2(2879, 496)
+scale = Vector2(1, 1.00407)
+texture = ExtResource("1_hvrlf")
+
+[node name="BackgroundWalsGenerated9" type="Sprite2D" parent="."]
+position = Vector2(-2880, -475.5)
+scale = Vector2(1, 1.00406)
+texture = ExtResource("1_hvrlf")
+
+[node name="BackgroundWalsGenerated10" type="Sprite2D" parent="."]
+position = Vector2(-960, -475.497)
+scale = Vector2(1, 1.00407)
+texture = ExtResource("1_hvrlf")
+
+[node name="BackgroundWalsGenerated11" type="Sprite2D" parent="."]
+position = Vector2(-2880, 493)
+texture = ExtResource("1_hvrlf")
+
+[node name="BackgroundWalsGenerated12" type="Sprite2D" parent="."]
+position = Vector2(-2880, 1462.75)
+scale = Vector2(1, 1.00152)
+texture = ExtResource("1_hvrlf")
+
+[node name="BackgroundWalsGenerated13" type="Sprite2D" parent="."]
+position = Vector2(2879, -1445)
+texture = ExtResource("1_hvrlf")
+
+[node name="BackgroundWalsGenerated14" type="Sprite2D" parent="."]
+position = Vector2(960, -1445)
+texture = ExtResource("1_hvrlf")
+
+[node name="BackgroundWalsGenerated15" type="Sprite2D" parent="."]
+position = Vector2(-960, -1445)
+texture = ExtResource("1_hvrlf")
+
+[node name="BackgroundWalsGenerated16" type="Sprite2D" parent="."]
+position = Vector2(-2880, -1445)
+texture = ExtResource("1_hvrlf")

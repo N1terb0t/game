@@ -1,0 +1,125 @@
+[gd_scene load_steps=2 format=3 uid="uid://b777bv73eu5rm"]
+
+[ext_resource type="Texture2D" uid="uid://dw2rq2pmnpvlx" path="res://Sprites/hannah-oates-brick-wall-wip2.jpg" id="1_l7t56"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Hannah-oates-brick-wall-wip2" type="Sprite2D" parent="."]
+position = Vector2(-640, -2400)
+scale = Vector2(2, 2)
+texture = ExtResource("1_l7t56")
+
+[node name="Hannah-oates-brick-wall-wip3" type="Sprite2D" parent="."]
+position = Vector2(640, -2400)
+scale = Vector2(2, 2)
+texture = ExtResource("1_l7t56")
+
+[node name="Hannah-oates-brick-wall-wip4" type="Sprite2D" parent="."]
+position = Vector2(-640, 2400)
+scale = Vector2(2, 2)
+texture = ExtResource("1_l7t56")
+
+[node name="Hannah-oates-brick-wall-wip5" type="Sprite2D" parent="."]
+position = Vector2(-1920, 1440)
+scale = Vector2(2, 2)
+texture = ExtResource("1_l7t56")
+
+[node name="Hannah-oates-brick-wall-wip6" type="Sprite2D" parent="."]
+position = Vector2(-640, 480)
+scale = Vector2(2, 2)
+texture = ExtResource("1_l7t56")
+
+[node name="Hannah-oates-brick-wall-wip7" type="Sprite2D" parent="."]
+position = Vector2(1920, 2400)
+scale = Vector2(2, 2)
+texture = ExtResource("1_l7t56")
+
+[node name="Hannah-oates-brick-wall-wip8" type="Sprite2D" parent="."]
+position = Vector2(1920, -2400)
+scale = Vector2(2, 2)
+texture = ExtResource("1_l7t56")
+
+[node name="Hannah-oates-brick-wall-wip9" type="Sprite2D" parent="."]
+position = Vector2(-1920, 2400)
+scale = Vector2(2, 2)
+texture = ExtResource("1_l7t56")
+
+[node name="Hannah-oates-brick-wall-wip10" type="Sprite2D" parent="."]
+position = Vector2(640, 2400)
+scale = Vector2(2, 2)
+texture = ExtResource("1_l7t56")
+
+[node name="Hannah-oates-brick-wall-wip11" type="Sprite2D" parent="."]
+position = Vector2(-1920, -2400)
+scale = Vector2(2, 2)
+texture = ExtResource("1_l7t56")
+
+[node name="Hannah-oates-brick-wall-wip12" type="Sprite2D" parent="."]
+position = Vector2(1920, -1440)
+scale = Vector2(2, 2)
+texture = ExtResource("1_l7t56")
+
+[node name="Hannah-oates-brick-wall-wip13" type="Sprite2D" parent="."]
+position = Vector2(-1920, 480)
+scale = Vector2(2, 2)
+texture = ExtResource("1_l7t56")
+
+[node name="Hannah-oates-brick-wall-wip14" type="Sprite2D" parent="."]
+position = Vector2(-1920, -1440)
+scale = Vector2(2, 2)
+texture = ExtResource("1_l7t56")
+
+[node name="Hannah-oates-brick-wall-wip15" type="Sprite2D" parent="."]
+position = Vector2(640, -480)
+scale = Vector2(2, 2)
+texture = ExtResource("1_l7t56")
+
+[node name="Hannah-oates-brick-wall-wip16" type="Sprite2D" parent="."]
+position = Vector2(-1920, -480)
+scale = Vector2(2, 2)
+texture = ExtResource("1_l7t56")
+
+[node name="Hannah-oates-brick-wall-wip17" type="Sprite2D" parent="."]
+position = Vector2(1920, 1440)
+scale = Vector2(2, 2)
+texture = ExtResource("1_l7t56")
+
+[node name="Hannah-oates-brick-wall-wip18" type="Sprite2D" parent="."]
+position = Vector2(1920, 480)
+scale = Vector2(2, 2)
+texture = ExtResource("1_l7t56")
+
+[node name="Hannah-oates-brick-wall-wip19" type="Sprite2D" parent="."]
+position = Vector2(-640, 1440)
+scale = Vector2(2, 2)
+texture = ExtResource("1_l7t56")
+
+[node name="Hannah-oates-brick-wall-wip20" type="Sprite2D" parent="."]
+position = Vector2(1920, -480)
+scale = Vector2(2, 2)
+texture = ExtResource("1_l7t56")
+
+[node name="Hannah-oates-brick-wall-wip21" type="Sprite2D" parent="."]
+position = Vector2(640, 1440)
+scale = Vector2(2, 2)
+texture = ExtResource("1_l7t56")
+
+[node name="Hannah-oates-brick-wall-wip22" type="Sprite2D" parent="."]
+position = Vector2(-640, -1440)
+scale = Vector2(2, 2)
+texture = ExtResource("1_l7t56")
+
+[node name="Hannah-oates-brick-wall-wip23" type="Sprite2D" parent="."]
+position = Vector2(640, -1440)
+scale = Vector2(2, 2)
+texture = ExtResource("1_l7t56")
+
+[node name="Hannah-oates-brick-wall-wip24" type="Sprite2D" parent="."]
+position = Vector2(-640, -480)
+scale = Vector2(2, 2)
+texture = ExtResource("1_l7t56")
+
+[node name="Hannah-oates-brick-wall-wip25" type="Sprite2D" parent="."]
+position = Vector2(640, 480)
+scale = Vector2(2, 2)
+texture = ExtResource("1_l7t56")
